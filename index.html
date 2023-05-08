@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>우병일의 Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -120,16 +120,16 @@
         
                 <div class="col-md-4">
                     <p>
-                        <b>정보처리기사</b> <br>
+                        <b>SQL 개발자(SQLD)</b> <br>
                         <b>데이터분석 준전문가(ADsP)</b> <br>
-                        <b>SQL 개발자(SQLD)</b> 
+                        <b>정보처리기사</b> 
                     </p>
                 </div>
                 <div class="col-md-3">
                     <p>
-                        <!--b>정보처리기사(필기+실기)</b--> 2021.11<br>
+                        <!--b>정보처리기사(필기+실기)</b--> 2023.04<br>
                         <!--b>데이터분석 준전문가(ADsp)</b--> 2022.11<br>
-                        <!--b>SQL 개발자(SQLD)</b--> 2023.04
+                        <!--b>SQL 개발자(SQLD)</b--> 2021.11
                     </p>
                 </div>
                 
@@ -170,24 +170,7 @@
 
     <div id="education">
         <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>세마고등학교 </h3>
-            <span class="education-date">Feb 2011 - Feb 2014</span>
-            <h4>인문계 이과</h4>
-        </div>
-
-    
-        <div class="education-block">
-            <h3>홍익대학교 </h3>
-            <span class="education-date">Mar 2015 - Aug 2022</span>
-            <h4>Computer Engineering</h4>
-            <p>
-                컴퓨터 공학(OS,컴퓨터구조,자료구조,알고리즘,데이터베이스,인공지능)과 개발에 대해 공부하였습니다.<br>
-                졸업프로젝트는 라즈베리파이 카메라를 사용하여 사람의 얼굴을 인식하는 프로젝트를 진행하였습니다.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
+        
         <div class="education-block">
             <h3>코드스테이츠 AI/Data Science 부트캠프</h3>
             <span class="education-date">Aug 2022 - Feb 2023</span>
@@ -203,6 +186,25 @@
                     기계학습, 딥러닝
                 </li>
             </ul>
+        </div>
+
+    
+        <div class="education-block">
+            <h3>홍익대학교 </h3>
+            <span class="education-date">Mar 2015 - Aug 2022</span>
+            <h4>Computer Engineering</h4>
+            <p>
+                컴퓨터 공학(OS,컴퓨터구조,자료구조,알고리즘,데이터베이스,인공지능)과 개발에 대해 공부하였습니다.<br>
+                졸업프로젝트는 라즈베리파이 카메라를 사용하여 사람의 얼굴을 인식하는 프로젝트를 진행하였습니다.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+
+        <div class="education-block">
+            <h3>세마고등학교 </h3>
+            <span class="education-date">Feb 2011 - Feb 2014</span>
+            <h4>인문계 이과</h4>
         </div>
         <!-- End .education-block -->
     </div>
@@ -239,21 +241,22 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images\video_games_anlysis.png" width="300" height="300">
+                        <img src="images\REST API.png" width="300" height="350">
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>어떤 게임을 만들어야 할까?</h3>
+                        <h3>RESTful API & ETL pipeline 구축</h3>
                         <p style="text-align:left">
-                            프로젝트 기간 :<b> 개인 프로젝트</b> 2022.08 ~ 2022.09<br>
-                           
-                            코드스테이츠 교육과정 중 '데이터 분석'에 관해 배울때 진행한 프로젝트 입니다.<br><br>
-                            게임회사에 근무하는 데이터 분석가(DA)의 관점에서 '40년 간의 게임 판매량 통계'를 분석&시각화 하여 후속 게임 설계에 대한 인사이트를 도출합니다.<br>
-                            방대한 양의 초기 데이터를 어떻게 정제&가공하여 분석에 용이한 데이터로 만들수 있는가에 대해 고민하였고,
-                            정제한 데이터를 pandas, scikit-learn 등의 다양한 파이썬 라이브러리를 통해 분석하고 시각화해 보았습니다. <br>
-                            여러 결론이 나올수 있는 주제를 합당하고 납득할만한 결론을 내려했습니다. 
+                            프로젝트 기간 :<b> 팀 프로젝트</b> 2023.01 ~ 2023.03<br>
+                            코드스테이츠 교육과정 중 DE(Data Engineer)로 직무를 결정한 뒤,
+                            세명의 팀원들과 함께 RESTful API, ETL pipeline을 실제로 구축한 프로젝트 입니다.<br><br>
+                            RESTful API를 사용하는 이유를 파악하고 DRF(Django REST Framework)를 사용하여 직접 만들고 배포하였습니다.<br>
+                            이후 Airflow, RDS, EC2, S3를 사용하여 ETL PipeLine 구축 및 자동화하였습니다.<br><br>
+                            Github README.md와 직접 제작한 Document 페이지를 통해 프로젝트 설명을 작성하였고, 따라해 볼 수 있는 과정을 정리해 놓았습니다. 
                         </p>
-                        <a href="https://github.com/sigma-wbi/Game_Analysis_Project">View Project</a>
+                        <a href="https://github.com/sigma-wbi/cp2_api.git">View API</a>
+                        <br>
+                        <a href="https://github.com/sigma-wbi/cp2_ETL_pipeline.git">View ETL Pipeline</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -284,24 +287,24 @@
                 </div>
                 <!-- End .project -->
 
+
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images\REST API.png" width="300" height="350">
+                        <img src="images\video_games_anlysis.png" width="300" height="300">
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>RESTful API & ETL pipeline 구축</h3>
+                        <h3>어떤 게임을 만들어야 할까?</h3>
                         <p style="text-align:left">
-                            프로젝트 기간 :<b> 팀 프로젝트</b> 2023.01 ~ 2023.03<br>
-                            코드스테이츠 교육과정 중 DE(Data Engineer)로 직무를 결정한 뒤,
-                            세명의 팀원들과 함께 RESTful API, ETL pipeline을 실제로 구축한 프로젝트 입니다.<br><br>
-                            RESTful API를 사용하는 이유를 파악하고 DRF(Django REST Framework)를 사용하여 직접 만들고 배포하였습니다.<br>
-                            이후 Airflow, RDS, EC2, S3를 사용하여 ETL PipeLine 구축 및 자동화하였습니다.<br><br>
-                            Github README.md와 직접 제작한 Document 페이지를 통해 프로젝트 설명을 작성하였고, 따라해 볼 수 있는 과정을 정리해 놓았습니다. 
+                            프로젝트 기간 :<b> 개인 프로젝트</b> 2022.08 ~ 2022.09<br>
+                           
+                            코드스테이츠 교육과정 중 '데이터 분석'에 관해 배울때 진행한 프로젝트 입니다.<br><br>
+                            게임회사에 근무하는 데이터 분석가(DA)의 관점에서 '40년 간의 게임 판매량 통계'를 분석&시각화 하여 후속 게임 설계에 대한 인사이트를 도출합니다.<br>
+                            방대한 양의 초기 데이터를 어떻게 정제&가공하여 분석에 용이한 데이터로 만들수 있는가에 대해 고민하였고,
+                            정제한 데이터를 pandas, scikit-learn 등의 다양한 파이썬 라이브러리를 통해 분석하고 시각화해 보았습니다. <br>
+                            여러 결론이 나올수 있는 주제를 합당하고 납득할만한 결론을 내려했습니다. 
                         </p>
-                        <a href="https://github.com/sigma-wbi/cp2_api.git">View API</a>
-                        <br>
-                        <a href="https://github.com/sigma-wbi/cp2_ETL_pipeline.git">View ETL Pipeline</a>
+                        <a href="https://github.com/sigma-wbi/Game_Analysis_Project">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
